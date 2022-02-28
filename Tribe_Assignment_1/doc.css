@@ -1,0 +1,10 @@
+h1{
+    text-align: center;
+}
+select{
+    font-size: 20px;
+    border: 1px solid black;
+    background: white;
+    width: 300px;
+    margin-left:40%;
+}

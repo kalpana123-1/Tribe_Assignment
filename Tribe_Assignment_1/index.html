@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./doc.css">
+    <link rel="stylesheet" href="./dycalendar.css">
 </head>
 
 <body>
@@ -20,11 +21,23 @@
         </select>
         <h3>Select your date</h3>
         <div class="cont">
-
+          <div id="dycalendar"></div>
         </div>
 
 
     </div>
+    
+<script src="./dycalendar.js"></script>
+<script>
+  dycalendar, draw({
+    target: '#dycalendar',
+    type: 'month',
+    dayformat: 'full',
+    monthformat: 'full',
+    highlighttargetdata: true,
+    prevnextbutton: 'show'
+  })
+</script>
 </body>
 
 </html>

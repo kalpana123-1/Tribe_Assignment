@@ -7,16 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./doc.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
-  <script>
-  $( function() {
-    $( "#datepicker" ).datepicker();
-    $( "#format" ).on( "change", function() {
-      $( "#datepicker" ).datepicker( "option", "dateFormat", $( this ).val() );
-    });
-  } );
-  </script>
 </head>
 
 <body>
@@ -29,10 +19,13 @@
             <option value="northern-ireland">Northern Ireland</option>
         </select>
         <h3>Select your date</h3>
-        <input type="text" id="datepicker" size="30">
+        <div class="cont">
+
+        </div>
+
+
     </div>
 </body>
 
 </html>
-<script src="https://kit.fontawesome.com/7fc87d8fcc.js" crossorigin="anonymous"></script>
 <script src="./app.js"></script>
